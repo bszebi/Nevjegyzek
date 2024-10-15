@@ -1,5 +1,5 @@
 <?php
-require "connect.php";
+require "kapcsolat.php";
 require "lapozo.php";
 
 $kifejezes = (isset($_POST['kifejezes'])) ? $_POST['kifejezes'] : "";

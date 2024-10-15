@@ -1,6 +1,6 @@
 <?php
 // Adatbázis kapcsolódás és lekérdezés külön függvényekben
-require"connect.php";
+require("kapcsolat.php");
 
 /**
  * Adatok lekérése az adatbázisból.

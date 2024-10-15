@@ -1,6 +1,6 @@
 <?php
 // Kapcsolódás az adatbázishoz
-require"connect.php";
+require("kapcsolat.php");
 /**
  * Lekérdezi az adatbázisból a 'nevjegyek' táblát.
  * @param mysqli $dbconn Az adatbázis kapcsolati objektum

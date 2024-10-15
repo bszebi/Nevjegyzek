@@ -8,7 +8,6 @@ $data = [];
 while ($row = mysqli_fetch_assoc($result)) {
     $data[] = $row;
 }
-//var_dump($data);
 $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 header('Content-Type:application/json');
 echo $json;
